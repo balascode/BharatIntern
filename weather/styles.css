@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+    background-image: url("https://img.freepik.com/free-vector/sky-background-video-conferencing_23-2148639325.jpg");
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#weather-info {
+    margin-top: 20px;
+}
+
+#loading {
+    margin-top: 20px;
+    color: #007BFF;
+}
+
+#error {
+    margin-top: 20px;
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+.infohead{
+    font-family: "Robobto";
+    font-size: 25px;
+    font-weight: bold; 
+}
+
+.info{
+    font-family: "Robobto";
+    font-size: 23px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.infospan{
+   font-weight: normal;
+   text-align: center;
+}
